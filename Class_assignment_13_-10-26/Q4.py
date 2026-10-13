@@ -1,0 +1,7 @@
+file = open("Class_assignment_13_-10-26/sample.txt", "r") 
+content = file.read()
+words = content.split()
+print("Total number of words:", len(words))
+unique_words = set(words) 
+print("Unique words:", unique_words)
+file.close()

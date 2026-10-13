@@ -1,6 +1,6 @@
 # Write a program to read a file and count how many vowels are present in its content.
 
-file = open("sample.txt", "r") 
+file = open("Class_assignment_13_-10-26/sample.txt", "r") 
 content = file.read() 
 file.close()
 count = 0 
